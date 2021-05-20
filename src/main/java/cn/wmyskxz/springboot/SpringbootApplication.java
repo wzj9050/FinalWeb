@@ -12,19 +12,19 @@ public class SpringbootApplication {
         SpringApplication.run(SpringbootApplication.class, args);
 
 //Run the crawler when apply the project
-//        DrugLabelCrawler drugLabelCrawler = new DrugLabelCrawler();
-//        DosingGuidelineCrawler dosingGuidelineCrawler = new DosingGuidelineCrawler();
-//
-//        // comment the step, if you have finished it
-//
-//        // Step 1
-//        drugLabelCrawler.doCrawlerDrug();
-//
-//        // Step 2
-//        drugLabelCrawler.doCrawlerDrugLabel();
-//
-//        // Step 3
-//        dosingGuidelineCrawler.doCrawlerDosingGuidelineList();
+        DrugLabelCrawler drugLabelCrawler = new DrugLabelCrawler();
+        DosingGuidelineCrawler dosingGuidelineCrawler = new DosingGuidelineCrawler();
+
+        // comment the step, if you have finished it
+
+        // Step 1
+        drugLabelCrawler.doCrawlerDrug();
+
+        // Step 2
+        drugLabelCrawler.doCrawlerDrugLabel();
+
+        // Step 3
+        dosingGuidelineCrawler.doCrawlerDosingGuidelineList();
     }
 
 }
