@@ -9,9 +9,9 @@ spring:
   servlet:
     multipart:
       enabled: true
-      max-file-size: 20MB
-      max-request-size: 20MB
-      #设置upload的上限
+      max-file-size: 100MB
+      max-request-size: 100MB
+      #set the upper limit of the upload
   mvc:
     view:
       prefix: /WEB-INF/views/
