@@ -39,7 +39,7 @@ public class LoginInterceptor implements HandlerInterceptor {
             // Have login in, go!
             return true;
         } else {
-            System.out.println("You haven't login in. No authority!");
+            System.out.println("You do not login. No authority!");
             // No login, intercept and return to login page
             response.sendRedirect("login");
             return false;
