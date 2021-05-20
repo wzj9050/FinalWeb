@@ -32,7 +32,7 @@
                 <a class='nav-link ${param.active == "samples" ? "active" : ""}' href="<%=request.getContextPath()%>/login_out">
                     <span data-feather="file"></span>
 
-                    Login out
+                    Log out
                 </a>
             </li>
         </ul>

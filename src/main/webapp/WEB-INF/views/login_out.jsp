@@ -27,6 +27,6 @@
 <form action="login.jsp">
     <input type = "submit" value = "Login" />
 </form>
-<h1>Login out successfully!</h1>
+<h1>Log out successfully!</h1>
 </body>
 </html>
