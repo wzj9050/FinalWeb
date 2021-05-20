@@ -1,0 +1,29 @@
+server:
+  port: 8080
+
+spring:
+#  thymeleaf:
+#    prefix: src/main/resources/templates/ #访问templates下的html模板
+#    suffix: .html
+#    cache: false
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 20MB
+      max-request-size: 20MB
+      #设置upload的上限
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/login?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: dd976789595
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update #新增数据库链接必备的参数
+#mybatis:
+#  mapper-locations: classpath*:mybatis/mapper/*.xml
